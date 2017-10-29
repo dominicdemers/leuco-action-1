@@ -2,6 +2,7 @@
 
 define("WEBMASTER_EMAIL", $_POST['sendto']);
 if (WEBMASTER_EMAIL == '' || WEBMASTER_EMAIL == 'Testemail') {
+	debugger;
 	die('<div class="alert alert-confirm"> <h6><strong>The recipient email is not correct</strong></h6></div>');	
 } 
 
@@ -40,7 +41,7 @@ $mail = mail(WEBMASTER_EMAIL, EMAIL_SUBJECT, $message,
 
 
 if($mail)
-{
+{ 
 echo '
 		<div class="alert alert-confirm">
 			<h6><strong>Confirm</strong>: Your message has been sent. Thank you!</h6>
