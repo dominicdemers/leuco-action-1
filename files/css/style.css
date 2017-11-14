@@ -1115,7 +1115,7 @@ section { }
 12. BLOG
 ------------------------------------------------*/
 .blog-entry {
-	border-top: 1px solid #d9d9d9;
+	/* border-top: 1px solid #d9d9d9; */
 	padding-top: 60px;
 	margin-top: 60px;
 	}
@@ -1157,9 +1157,11 @@ section { }
 	margin-bottom: 40px;
 	}
 	
-.blog-headline .post-name a {
-	color: #262626;
+	
+.blog-headline {
+	border-bottom: 1px solid #d9d9d9;
 	}
+	
 .blog-headline .post-name a:hover {	color: #4da5f5; }
 
 .blog-headline .post-meta {
@@ -2221,6 +2223,7 @@ a.sr-buttonicon.small-iconbutton {
 #passionate.parallax-section { background:url(../uploads/parallax-bg3.jpg) center center repeat; background-size: cover; } /* index */
 #purchase.parallax-section { background:url(../uploads/parallax-bg3.jpg) center center repeat; background-size: cover; } /* index-headeroverlay */
 #quote.parallax-section { background:url(../uploads/parallax-bg3.jpg) center center repeat; background-size: cover; } /* index-headeroverlay*/
+#don.parallax-section { background:url(../uploads/parallax-bg3.jpg) center center repeat; background-size: cover; } /* index-headeroverlay*/
 
 /*	dark bg sections
 ------------------------------------------------*/
